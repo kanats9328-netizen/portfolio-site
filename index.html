@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header-slot" id="site-header-slot">
+    <div class="site-top" id="site-top">
+      <div class="title-hero">
+        <div class="title-bg" id="title-bg" aria-hidden="true"></div>
+        <div class="title-bg-overlay" aria-hidden="true"></div>
+        <h1 class="site-title">Portfolio</h1>
+      </div>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#information" class="nav-link" data-panel="information">Information</a>
+        </li>
+        <li class="nav-item">
+          <a href="#profile" class="nav-link" data-panel="profile">Profile</a>
+        </li>
+        <li class="nav-item nav-item--has-sub" data-nav-group="work">
+          <a href="#illustration" class="nav-link" data-panel="illustration" aria-haspopup="true">Work</a>
+          <ul class="nav-sub" aria-label="Work サブメニュー">
+            <li><a href="#illustration" class="nav-link" data-panel="illustration">Illustration</a></li>
+            <li><a href="#novel" class="nav-link" data-panel="novel">Novel</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#movies" class="nav-link" data-panel="movies">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link" data-panel="contact">Contact</a>
+        </li>
+      </ul>
+      </nav>
+    </div>
+    <div class="site-top-spacer" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <div id="header-scroll-sentinel" class="header-scroll-sentinel" aria-hidden="true"></div>
+    <section id="information" class="section content-panel is-active" data-panel="information">
+      <h2 class="section-title">Information</h2>
+
+      <div class="info-block">
+        <h3 class="subsection-title">News</h3>
+        <ul class="news-list" id="news-list" aria-label="お知らせ一覧"></ul>
+      </div>
+
+      <div class="info-block">
+        <h3 class="subsection-title">X</h3>
+        <div class="x-posts-grid" id="x-posts-grid" aria-label="Xポスト"></div>
+      </div>
+    </section>
+
+    <section id="profile" class="section content-panel" data-panel="profile" hidden>
+      <h2 class="section-title">Profile</h2>
+      <div class="profile-layout">
+        <figure class="profile-icon">
+          <img src="images/icon.jpg" alt="プロフィールアイコン" width="200" height="200">
+        </figure>
+        <div class="profile-text"></div>
+      </div>
+      <div class="work-themes" id="work-themes" hidden>
+        <h3 class="work-themes-title" id="work-themes-title">作品テーマ</h3>
+        <div class="work-themes-content" id="work-themes-content"></div>
+      </div>
+    </section>
+
+    <section id="illustration" class="section content-panel" data-panel="illustration" hidden>
+      <h2 class="section-title">Illustration</h2>
+      <div class="illustration-grid" id="illustration-grid" aria-label="イラストギャラリー"></div>
+    </section>
+
+    <section id="novel" class="section content-panel" data-panel="novel" hidden>
+      <h2 class="section-title">Novel</h2>
+      <div class="novel-list" id="novel-list" aria-label="小説作品一覧"></div>
+    </section>
+
+    <section id="movies" class="section content-panel" data-panel="movies" hidden>
+      <div class="movies-header">
+        <h2 class="section-title movies-header-title">Movies</h2>
+        <div class="youtube-channel-embed" id="youtube-channel-embed" aria-label="YouTubeチャンネル"></div>
+      </div>
+      <div class="movies-grid" id="movies-grid" aria-label="YouTube動画"></div>
+    </section>
+
+    <section id="contact" class="section content-panel" data-panel="contact" hidden>
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-group">
+        <h3 class="contact-group-title">SNS</h3>
+        <ul class="contact-links" id="sns-links"></ul>
+      </div>
+      <div class="contact-group">
+        <h3 class="contact-group-title">Commission</h3>
+        <ul class="contact-links" id="commission-links"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Portfolio</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
