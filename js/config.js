@@ -18,7 +18,7 @@ const SITE_CONFIG = {
     { date: "2025.05.18", text: "YouTube チャンネルを開設しました。" },
   ],
 
-  xPosts: [],
+  xPosts: [{ url: "https://x.com/oiomae_m9/status/1969735463817908262?s=20}],
 
   profile: {
     icon: "images/icon.png",
