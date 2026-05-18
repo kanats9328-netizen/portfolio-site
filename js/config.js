@@ -62,7 +62,7 @@ const SITE_CONFIG = {
   ],
 
   youtubeChannel: {
-    url: "https://youtube.com/channel/UC6lZ_2-_FQk17lM7SD_CFXA?si=acgSu9yqJwUwZX24",
+    url: "https://www.youtube.com/@カ夏",
     title: "カ夏",
     channelId: "",
   },
