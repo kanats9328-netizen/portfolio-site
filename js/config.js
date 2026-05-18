@@ -32,7 +32,7 @@ const SITE_CONFIG = {
       "最近 YouTube を始めました。ぜひ見てね。",
     ],
     workThemes: {
-      title: "作品テーマ",
+      title: "",
       blocks: [
         {
           type: "text",
@@ -63,7 +63,7 @@ const SITE_CONFIG = {
 
   youtubeChannel: {
     url: "https://www.youtube.com/channel/UC6lZ_2-_FQk17lM7SD_CFXAL",
-    title: "KANATSU",
+    title: "カ夏",
     channelId: "",
   },
 
