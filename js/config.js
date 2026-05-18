@@ -18,7 +18,11 @@ const SITE_CONFIG = {
     { date: "2025.05.18", text: "YouTube チャンネルを開設しました。" },
   ],
 
-  xPosts: [{ url: "https://x.com/oiomae_m9/status/1969735463817908262?s=20"}],
+  xProfileHandle: "oiomae_m9",
+  xPosts: [
+    { url: "https://x.com/oiomae_m9/status/1969735463817908262" },
+    { url: "https://x.com/oiomae_m9/status/1970321455398408230" },
+  ],
 
   profile: {
     icon: "images/icon.png",
@@ -58,8 +62,8 @@ const SITE_CONFIG = {
   ],
 
   youtubeChannel: {
-    url: "https://www.youtube.com/@YOUR_CHANNEL",
-    title: "YouTube",
+    url: "https://www.youtube.com/channel/UC6lZ_2-_FQk17lM7SD_CFXAL",
+    title: "KANATSU",
     channelId: "",
   },
 
@@ -82,14 +86,14 @@ const SITE_CONFIG = {
   ],
 
   contact: {
-    email: "",
+    email: "kanats9328@gmail.com",
     sns: [
-      { label: "X", url: "https://x.com/YOUR_HANDLE" },
-      { label: "YouTube", url: "https://www.youtube.com/@YOUR_CHANNEL" },
-      { label: "Instagram", url: "https://www.instagram.com/YOUR_HANDLE/" },
+      { label: "X", url: "https://x.com/kanatsu_89va" },
+      { label: "YouTube", url: "https://www.youtube.com/channel/UC6lZ_2-_FQk17lM7SD_CFXAL" },
+      { label: "Instagram", url: "https://www.instagram.com/kanatsu_89va/" },
     ],
     commission: [
-      { label: "Skeb", url: "https://skeb.jp/@YOUR_HANDLE" },
+      { label: "Skeb", url: "https://skeb.jp/@kanatsu_89va" },
     ],
   },
 };
